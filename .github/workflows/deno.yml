@@ -45,3 +45,5 @@ jobs:
 
       - name: Run tests
         run: deno test -A --unstable
+      - name: Weather Action
+        uses: VadimDez/weather-action@10
